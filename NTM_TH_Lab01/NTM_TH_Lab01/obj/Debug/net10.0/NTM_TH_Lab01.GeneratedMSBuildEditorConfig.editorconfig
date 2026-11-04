@@ -20,93 +20,101 @@ build_property.TargetFrameworkVersion = v10.0
 build_property.EntryPointFilePath = 
 build_property.RootNamespace = NTM_TH_Lab01
 build_property.RootNamespace = NTM_TH_Lab01
-build_property.ProjectDir = C:\Users\grind\github\web-design\NTM_TH_Lab01\NTM_TH_Lab01\
+build_property.ProjectDir = C:\Users\grind\github\web-prog\NTM_TH_Lab01\NTM_TH_Lab01\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 10.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\grind\github\web-design\NTM_TH_Lab01\NTM_TH_Lab01
+build_property.MSBuildProjectDirectory = C:\Users\grind\github\web-prog\NTM_TH_Lab01\NTM_TH_Lab01
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/Home/Index.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/Home/Privacy.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/Learner/Create.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Learner/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhcm5lclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/Learner/Delete.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Learner/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhcm5lclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/Learner/Edit.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Learner/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhcm5lclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/Learner/Index.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Learner/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhcm5lclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/Learner/_LearnerFields.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Learner/LearnerTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhcm5lclxMZWFybmVyVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Learner/_LearnerFields.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhcm5lclxfTGVhcm5lckZpZWxkcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/Shared/Components/Render/RenderLeftMenu.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Shared/Components/Major/RenderMajor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWFqb3JcUmVuZGVyTWFqb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Shared/Components/Render/RenderLeftMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUmVuZGVyXFJlbmRlckxlZnRNZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/Shared/Error.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/Shared/Footer.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Shared/Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEZvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/Shared/LeftMenu.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Shared/LeftMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExlZnRNZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/Shared/Main.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Shared/Main.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1haW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/Shared/MyLayout.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Shared/MyLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE15TGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/Shared/TopNav.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Shared/TopNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFRvcE5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/Student/Create.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Student/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/Student/Index.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/_ViewImports.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/_ViewStart.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grind/github/web-design/NTM_TH_Lab01/NTM_TH_Lab01/Views/Shared/_Layout.cshtml]
+[C:/Users/grind/github/web-prog/NTM_TH_Lab01/NTM_TH_Lab01/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-88ftvaoiil

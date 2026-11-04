@@ -1,0 +1,63 @@
+﻿
+@model IEnumerable<NTM_TH_Lab01.Models.Learner>
+
+<form id="learner-search"
+      asp-controller="Learner" asp-action="Index"
+      method="get" class="d-flex gap-2 mb-3">
+    <input type="hidden" name="mid" value="@ViewBag.Mid" />
+    <input type="search" name="keyword" value="@ViewBag.Keyword"
+           class="form-control" aria-label="Tìm theo tên"
+           placeholder="Tìm theo tên" />
+    <button type="submit" class="btn btn-primary">Tìm</button>
+</form>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Mã</th>
+            <th>Tên</th>
+            <th>Họ</th>
+            <th>Ngành</th>
+            <th>Ngày nhập học</th>
+            <th>Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.LearnerID</td>
+                <td>@s.FirstMidName</td>
+                <td>@s.LastName</td>
+                <td>@s.Major?.MajorName</td>
+                <td>@s.EnrollmentDate.ToString("dd/MM/yyyy")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@s.LearnerID">Sửa</a> |
+                    <a asp-action="Delete" asp-route-id="@s.LearnerID">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if ((int)ViewBag.PageCount == 0)
+{
+    <p>Không có người học phù hợp.</p>
+}
+else if ((int)ViewBag.PageCount > 1)
+{
+    <nav aria-label="Các trang người học">
+        <ul class="pagination">
+            @for (int i = 1; i <= (int)ViewBag.PageCount; i++)
+            {
+                <li class="page-item @(i == (int)ViewBag.CurrentPage ? "active" : "")">
+                    <a class="page-link js-learner-filter"
+                       asp-controller="Learner" asp-action="Index"
+                       asp-route-mid="@ViewBag.Mid"
+                       asp-route-keyword="@ViewBag.Keyword"
+                       asp-route-pageIndex="@i">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
+}

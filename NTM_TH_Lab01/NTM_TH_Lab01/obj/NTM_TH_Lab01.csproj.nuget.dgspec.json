@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\grind\\github\\web-design\\NTM_TH_Lab01\\NTM_TH_Lab01\\NTM_TH_Lab01.csproj": {}
+    "C:\\Users\\grind\\github\\web-prog\\NTM_TH_Lab01\\NTM_TH_Lab01\\NTM_TH_Lab01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\grind\\github\\web-design\\NTM_TH_Lab01\\NTM_TH_Lab01\\NTM_TH_Lab01.csproj": {
+    "C:\\Users\\grind\\github\\web-prog\\NTM_TH_Lab01\\NTM_TH_Lab01\\NTM_TH_Lab01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\grind\\github\\web-design\\NTM_TH_Lab01\\NTM_TH_Lab01\\NTM_TH_Lab01.csproj",
+        "projectUniqueName": "C:\\Users\\grind\\github\\web-prog\\NTM_TH_Lab01\\NTM_TH_Lab01\\NTM_TH_Lab01.csproj",
         "projectName": "NTM_TH_Lab01",
-        "projectPath": "C:\\Users\\grind\\github\\web-design\\NTM_TH_Lab01\\NTM_TH_Lab01\\NTM_TH_Lab01.csproj",
+        "projectPath": "C:\\Users\\grind\\github\\web-prog\\NTM_TH_Lab01\\NTM_TH_Lab01\\NTM_TH_Lab01.csproj",
         "packagesPath": "C:\\Users\\grind\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\grind\\github\\web-design\\NTM_TH_Lab01\\NTM_TH_Lab01\\obj\\",
+        "outputPath": "C:\\Users\\grind\\github\\web-prog\\NTM_TH_Lab01\\NTM_TH_Lab01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

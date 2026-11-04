@@ -62,12 +62,12 @@ public class LearnerController : Controller
     // GET: LEARNERS/Edit/5
     public async Task<IActionResult> Edit(int? id)
     {
-        if (learnerid == null)
+        if (id == null)
         {
             return NotFound();
         }
 
-        var learner = await _context.Learners.FindAsync(learnerid);
+        var learner = await _context.Learners.FindAsync(id);
         if (learner == null)
         {
             return NotFound();

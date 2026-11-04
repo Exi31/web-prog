@@ -27,11 +27,50 @@ public class LearnerController : Controller
             ModelState.AddModelError("MajorID", "Ngành học không tồn tại.");
     }
 
-    public IActionResult Index()
+    private const int PageSize = 3;
+
+    [HttpGet]
+    public IActionResult Index(int? mid, string? keyword, int pageIndex = 1)
     {
-        var learners = db.Learners.Include(x => x.Major)
-            .OrderBy(x => x.LearnerID).ToList();
-        return View(learners);
+        return View(GetLearnerPage(mid, keyword, pageIndex));
+    }
+
+    [HttpGet]
+    public IActionResult LearnerFilter(
+        int? mid, string? keyword, int pageIndex = 1)
+    {
+        return PartialView(
+            "LearnerTable", GetLearnerPage(mid, keyword, pageIndex));
+    }
+
+    private List<Learner> GetLearnerPage(
+        int? mid, string? keyword, int pageIndex)
+    {
+        IQueryable<Learner> query = db.Learners;
+        keyword = keyword?.Trim();
+
+        if (mid.HasValue)
+            query = query.Where(x => x.MajorID == mid.Value);
+
+        if (!string.IsNullOrWhiteSpace(keyword))
+        {
+            var term = keyword.ToLower();
+            query = query.Where(x => x.FirstMidName.ToLower().Contains(term));
+        }
+
+        int pageCount = (int)Math.Ceiling(query.Count() / (double)PageSize);
+        int currentPage = Math.Clamp(pageIndex, 1, Math.Max(1, pageCount));
+
+        ViewBag.Mid = mid;
+        ViewBag.Keyword = keyword;
+        ViewBag.PageCount = pageCount;
+        ViewBag.CurrentPage = currentPage;
+
+        return query.Include(x => x.Major)
+            .OrderBy(x => x.LearnerID)
+            .Skip((currentPage - 1) * PageSize)
+            .Take(PageSize)
+            .ToList();
     }
 
     [HttpGet]

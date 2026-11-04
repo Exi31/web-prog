@@ -6230,11 +6230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\grind\\github\\web-design\\NTM_TH_Lab01\\DBFirstApp\\DBFirstApp.csproj",
+      "projectUniqueName": "C:\\Users\\grind\\github\\web-prog\\NTM_TH_Lab01\\DBFirstApp\\DBFirstApp.csproj",
       "projectName": "DBFirstApp",
-      "projectPath": "C:\\Users\\grind\\github\\web-design\\NTM_TH_Lab01\\DBFirstApp\\DBFirstApp.csproj",
+      "projectPath": "C:\\Users\\grind\\github\\web-prog\\NTM_TH_Lab01\\DBFirstApp\\DBFirstApp.csproj",
       "packagesPath": "C:\\Users\\grind\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\grind\\github\\web-design\\NTM_TH_Lab01\\DBFirstApp\\obj\\",
+      "outputPath": "C:\\Users\\grind\\github\\web-prog\\NTM_TH_Lab01\\DBFirstApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

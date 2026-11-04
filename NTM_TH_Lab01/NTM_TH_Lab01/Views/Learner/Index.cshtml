@@ -4,28 +4,43 @@
     Layout = "~/Views/Shared/MyLayout.cshtml";
 }
 <h1>Danh sách người học</h1>
+@await Component.InvokeAsync("Major")
 <a asp-action="Create" class="btn btn-primary mb-3">Thêm người học</a>
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Mã</th><th>Tên</th><th>Họ</th><th>Ngành</th>
-            <th>Ngày nhập học</th><th>Chức năng</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var s in Model)
-        {
-            <tr>
-                <td>@s.LearnerID</td>
-                <td>@s.FirstMidName</td>
-                <td>@s.LastName</td>
-                <td>@s.Major?.MajorName</td>
-                <td>@s.EnrollmentDate.ToString("dd/MM/yyyy")</td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@s.LearnerID">Sửa</a> |
-                    <a asp-action="Delete" asp-route-id="@s.LearnerID">Xóa</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+
+<div id="learner-results"
+     data-url="@Url.Action("LearnerFilter", "Learner")">
+    <partial name="LearnerTable" model="Model" />
+</div>
+
+@section Scripts {
+    <script>
+        $(function () {
+            const $results = $("#learner-results");
+
+            function loadLearners(data) {
+                $.ajax({
+                    url: $results.attr("data-url"),
+                    method: "GET",
+                    data: data
+                })
+                .done(function (html) {
+                    $results.html(html);
+                })
+                .fail(function () {
+                    alert("Không tải được danh sách người học.");
+                });
+            }
+
+            $(document).on("click", "a.js-learner-filter", function (event) {
+                event.preventDefault();
+                const query = new URL(this.href).search.slice(1);
+                loadLearners(query);
+            });
+
+            $(document).on("submit", "#learner-search", function (event) {
+                event.preventDefault();
+                loadLearners($(this).serialize());
+            });
+        });
+    </script>
+}

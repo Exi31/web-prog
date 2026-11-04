@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FjUSuUfTFJ8=",
+  "dgSpecHash": "YFlBquWK/Xw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\grind\\github\\web-design\\NTM_TH_Lab01\\DBFirstApp\\DBFirstApp.csproj",
+  "projectFilePath": "C:\\Users\\grind\\github\\web-prog\\NTM_TH_Lab01\\DBFirstApp\\DBFirstApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\grind\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\grind\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",
@@ -136,9 +136,9 @@
       "code": "NU1901",
       "level": "Warning",
       "message": "Package 'NuGet.Packaging' 6.12.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
-      "projectPath": "C:\\Users\\grind\\github\\web-design\\NTM_TH_Lab01\\DBFirstApp\\DBFirstApp.csproj",
+      "projectPath": "C:\\Users\\grind\\github\\web-prog\\NTM_TH_Lab01\\DBFirstApp\\DBFirstApp.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\grind\\github\\web-design\\NTM_TH_Lab01\\DBFirstApp\\DBFirstApp.csproj",
+      "filePath": "C:\\Users\\grind\\github\\web-prog\\NTM_TH_Lab01\\DBFirstApp\\DBFirstApp.csproj",
       "libraryId": "NuGet.Packaging",
       "targetGraphs": [
         "net10.0"
@@ -148,9 +148,9 @@
       "code": "NU1901",
       "level": "Warning",
       "message": "Package 'NuGet.Protocol' 6.12.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
-      "projectPath": "C:\\Users\\grind\\github\\web-design\\NTM_TH_Lab01\\DBFirstApp\\DBFirstApp.csproj",
+      "projectPath": "C:\\Users\\grind\\github\\web-prog\\NTM_TH_Lab01\\DBFirstApp\\DBFirstApp.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\grind\\github\\web-design\\NTM_TH_Lab01\\DBFirstApp\\DBFirstApp.csproj",
+      "filePath": "C:\\Users\\grind\\github\\web-prog\\NTM_TH_Lab01\\DBFirstApp\\DBFirstApp.csproj",
       "libraryId": "NuGet.Protocol",
       "targetGraphs": [
         "net10.0"

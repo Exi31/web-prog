@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NTM_TH_Lab01")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56339d4cd8494ed2cb7e82faa48f33a7fdcd7966")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8feb49b2805ddde339e241fd661d74cfca49bbf")]
 [assembly: System.Reflection.AssemblyProductAttribute("NTM_TH_Lab01")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NTM_TH_Lab01")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

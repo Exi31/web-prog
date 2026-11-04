@@ -1,0 +1,20 @@
+﻿
+@model IEnumerable<NTM_TH_Lab01.Models.Major>
+
+<ul class="nav mb-3">
+    <li class="nav-item">
+        <a class="nav-link js-learner-filter"
+           asp-controller="Learner" asp-action="Index">Tất cả</a>
+    </li>
+    @foreach (var major in Model)
+    {
+        <li class="nav-item">
+            <a class="nav-link js-learner-filter"
+               asp-controller="Learner"
+               asp-action="Index"
+               asp-route-mid="@major.MajorID">
+                @major.MajorName
+            </a>
+        </li>
+    }
+</ul>
