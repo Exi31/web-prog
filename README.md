@@ -1,2 +1,2 @@
-# web-design
+# web-prog
 uni course
