@@ -1,0 +1,60 @@
+﻿
+@model IEnumerable<NTM_DeThiMau2023.Models.HangHoa>
+
+@{
+    var danhSach = Model.ToList();
+}
+
+<div class="content_top">
+    <div class="heading">
+        <h3>NGUYỄN TUẤN MINH</h3>
+    </div>
+
+    <div class="see">
+        <p>
+            <a asp-controller="HangHoa" asp-action="Create">Thêm hàng hóa</a>
+        </p>
+    </div>
+
+    <div class="clear"></div>
+</div>
+
+@if (danhSach.Count == 0)
+{
+    <p>Không có sản phẩm phù hợp.</p>
+}
+else
+{
+    @for (int i = 0; i < danhSach.Count; i += 4)
+    {
+        <div class="section group">
+            @for (int j = i; j < Math.Min(i + 4, danhSach.Count); j++)
+            {
+                var item = danhSach[j];
+                var anh = string.IsNullOrWhiteSpace(item.Anh) ? "feature-pic1.jpg" : item.Anh.Trim();
+
+                <div class="grid_1_of_4 images_1_of_4">
+                    <img src="@Url.Content("~/images/" + anh)" alt="@item.TenHang" />
+                    <h2>@item.TenHang</h2>
+                    <div class="price-details">
+
+                        <div class="price-number">
+                            <p>
+                                <span class="rupees">
+                                    @item.Gia
+                                </span>
+                            </p>
+                        </div>
+
+                        <div class="add-cart">
+                            <h4>
+                                <a href="#">Add to cart</a>
+                            </h4>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+}

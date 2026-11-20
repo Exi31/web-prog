@@ -1,0 +1,13 @@
+﻿
+@model IEnumerable<NTM_DeThiMau2026.Models.TheLoai>
+
+<li class="active">
+    <a asp-controller="Home" asp-action="Index">NGUYỄN TUẤN MINH</a>
+</li>
+
+@foreach (var tl in Model)
+{
+    <li>
+        <a href="#" class="filter-theloai" data-ma-tl="@tl.MaTl">@tl.TenTl</a>
+    </li>
+}

@@ -1,0 +1,57 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1" />
+    <title>Website bán hàng</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body>
+    <div class="wrap">
+        @await Html.PartialAsync("NguyenTuanMinh_Header")
+
+        @RenderBody()
+    </div>
+
+    @await Html.PartialAsync("NguyenTuanMinh_Footer")
+
+    <script src="~/js/jquery-1.7.2.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        document.addEventListener("click", async function (event) {
+            const link = event.target.closest(".filter-loai");
+            if (!link) return;
+
+            event.preventDefault();
+
+            const maLoai = link.dataset.maloai;
+            const url = '@Url.Action("LocTheoLoai", "Home")' + '?maLoai=' + encodeURIComponent(maLoai);
+
+            try {
+                const response = await fetch(url, {
+                    headers: {
+                        "X-Requested-With": "XMLHttpRequest"
+                    }
+                });
+
+                if (!response.ok) {
+                    throw new Error("Không thể tải sản phẩm");
+                }
+
+                const html = await response.text();
+
+                document.getElementById("danhSachHangHoa").innerHTML = html;
+                document.querySelectorAll(".menu li.active").forEach(li => li.classList.remove("active"));
+
+                link.parentElement.classList.add("active");
+            } catch (error) {
+                alert("Có lỗi khi tải danh sách hàng hóa.");
+                console.error(error);
+            }
+        });
+    </script>
+</body>
+</html>

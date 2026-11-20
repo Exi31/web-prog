@@ -1,0 +1,37 @@
+﻿
+@model NTM_DeThiMau2026.Models.SachListViewModel
+
+<div class="section-head">
+    <h3>@Model.TieuDe</h3>
+
+    <a asp-controller="Sach" asp-action="Create">Thêm sách mới &rsaquo;</a>
+</div>
+
+@if (Model.DanhSach.Count == 0)
+{
+    <p>Không có sách phù hợp.</p>
+}
+else
+{
+    <div class="grid">
+        @foreach (var sach in Model.DanhSach)
+        {
+            var tenAnh = string.IsNullOrWhiteSpace(sach.Anh) ? "Img_1.jpg" : sach.Anh.Trim();
+
+            <div class="book-card">
+                <a href="#">
+                    <img src="@Url.Content("~/images/" + tenAnh)" alt="@sach.TenSach" />
+                </a>
+
+                <h2>@sach.TenSach</h2>
+                <div class="book-foot">
+                    <span class="price">
+                        @sach.Gia
+                    </span>
+
+                    <button type="button" class="btn-buy">Thêm vào giỏ</button>
+                </div>
+            </div>
+        }
+    </div>
+}

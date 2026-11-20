@@ -1,0 +1,27 @@
+﻿<!-- Begin Header -->
+<header class="header">
+    <div class="topbar">
+        <div class="container">
+            <span>Hotline: <b>1900 6789</b> &nbsp;|&nbsp; Miễn phí vận chuyển đơn từ 300.000đ</span>
+            <span>Đăng nhập &nbsp;|&nbsp; Đăng ký</span>
+        </div>
+    </div>
+    <div class="header-main">
+        <div class="container">
+            <a href="index.html"><img src="images/logo.png" alt="BookHub" /></a>
+            <div class="cart-box">Giỏ hàng: 0 sản phẩm - 0đ</div>
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="container">
+            <ul class="menu">
+                @await Component.InvokeAsync("TheLoaiMenu")
+            </ul>
+            <form class="search-box">
+                <input type="text" placeholder="Tìm sách..." />
+                <button type="button">Tìm</button>
+            </form>
+        </div>
+    </nav>
+</header>
+<!-- End Header -->

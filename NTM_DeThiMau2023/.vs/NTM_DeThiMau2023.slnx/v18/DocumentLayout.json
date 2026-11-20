@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|c:\\users\\grind\\github\\web-prog\\ntm_dethimau2023\\ntm_dethimau2023\\views\\shared\\_danhsachhanghoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|solutionrelative:ntm_dethimau2023\\views\\shared\\_danhsachhanghoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|c:\\users\\grind\\github\\web-prog\\ntm_dethimau2023\\ntm_dethimau2023\\views\\shared\\nguyentuanminh_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|solutionrelative:ntm_dethimau2023\\views\\shared\\nguyentuanminh_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|c:\\users\\grind\\github\\web-prog\\ntm_dethimau2023\\ntm_dethimau2023\\views\\hanghoa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|solutionrelative:ntm_dethimau2023\\views\\hanghoa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|c:\\users\\grind\\github\\web-prog\\ntm_dethimau2023\\ntm_dethimau2023\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|solutionrelative:ntm_dethimau2023\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|c:\\users\\grind\\github\\web-prog\\ntm_dethimau2023\\ntm_dethimau2023\\models\\hanghoacreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|solutionrelative:ntm_dethimau2023\\models\\hanghoacreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|c:\\users\\grind\\github\\web-prog\\ntm_dethimau2023\\ntm_dethimau2023\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|solutionrelative:ntm_dethimau2023\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|c:\\users\\grind\\github\\web-prog\\ntm_dethimau2023\\ntm_dethimau2023\\views\\shared\\nguyentuanminh_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|solutionrelative:ntm_dethimau2023\\views\\shared\\nguyentuanminh_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|c:\\users\\grind\\github\\web-prog\\ntm_dethimau2023\\ntm_dethimau2023\\views\\shared\\nguyentuanminh_maincontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|solutionrelative:ntm_dethimau2023\\views\\shared\\nguyentuanminh_maincontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|c:\\users\\grind\\github\\web-prog\\ntm_dethimau2023\\ntm_dethimau2023\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|solutionrelative:ntm_dethimau2023\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|c:\\users\\grind\\github\\web-prog\\ntm_dethimau2023\\ntm_dethimau2023\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|solutionrelative:ntm_dethimau2023\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|c:\\users\\grind\\github\\web-prog\\ntm_dethimau2023\\ntm_dethimau2023\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|solutionrelative:ntm_dethimau2023\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|c:\\users\\grind\\github\\web-prog\\ntm_dethimau2023\\ntm_dethimau2023\\views\\shared\\components\\loaihangmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|solutionrelative:ntm_dethimau2023\\views\\shared\\components\\loaihangmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|c:\\users\\grind\\github\\web-prog\\ntm_dethimau2023\\ntm_dethimau2023\\viewcomponents\\loaihangmenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|solutionrelative:ntm_dethimau2023\\viewcomponents\\loaihangmenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|c:\\users\\grind\\github\\web-prog\\ntm_dethimau2023\\ntm_dethimau2023\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8179F059-4731-4681-834C-AC64463E942D}|NTM_DeThiMau2023\\NTM_DeThiMau2023.csproj|solutionrelative:ntm_dethimau2023\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HangHoaCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Models\\HangHoaCreateViewModel.cs",
+              "RelativeDocumentMoniker": "NTM_DeThiMau2023\\Models\\HangHoaCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Models\\HangHoaCreateViewModel.cs",
+              "RelativeToolTip": "NTM_DeThiMau2023\\Models\\HangHoaCreateViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T10:27:27.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NguyenTuanMinh_MainContent.cshtml",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Views\\Shared\\NguyenTuanMinh_MainContent.cshtml",
+              "RelativeDocumentMoniker": "NTM_DeThiMau2023\\Views\\Shared\\NguyenTuanMinh_MainContent.cshtml",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Views\\Shared\\NguyenTuanMinh_MainContent.cshtml",
+              "RelativeToolTip": "NTM_DeThiMau2023\\Views\\Shared\\NguyenTuanMinh_MainContent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-20T10:14:05.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_DanhSachHangHoa.cshtml",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "RelativeDocumentMoniker": "NTM_DeThiMau2023\\Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "RelativeToolTip": "NTM_DeThiMau2023\\Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-20T10:07:12.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "NTM_DeThiMau2023\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "NTM_DeThiMau2023\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T10:04:13.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NguyenTuanMinh_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Views\\Shared\\NguyenTuanMinh_Layout.cshtml",
+              "RelativeDocumentMoniker": "NTM_DeThiMau2023\\Views\\Shared\\NguyenTuanMinh_Layout.cshtml",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Views\\Shared\\NguyenTuanMinh_Layout.cshtml",
+              "RelativeToolTip": "NTM_DeThiMau2023\\Views\\Shared\\NguyenTuanMinh_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-20T09:34:56.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HangHoaController.cs",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Controllers\\HangHoaController.cs",
+              "RelativeDocumentMoniker": "NTM_DeThiMau2023\\Controllers\\HangHoaController.cs",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Controllers\\HangHoaController.cs",
+              "RelativeToolTip": "NTM_DeThiMau2023\\Controllers\\HangHoaController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T10:31:23.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Views\\HangHoa\\Create.cshtml",
+              "RelativeDocumentMoniker": "NTM_DeThiMau2023\\Views\\HangHoa\\Create.cshtml",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Views\\HangHoa\\Create.cshtml",
+              "RelativeToolTip": "NTM_DeThiMau2023\\Views\\HangHoa\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-20T10:38:41.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "NTM_DeThiMau2023\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "NTM_DeThiMau2023\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-20T10:15:36.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NguyenTuanMinh_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Views\\Shared\\NguyenTuanMinh_Header.cshtml",
+              "RelativeDocumentMoniker": "NTM_DeThiMau2023\\Views\\Shared\\NguyenTuanMinh_Header.cshtml",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Views\\Shared\\NguyenTuanMinh_Header.cshtml",
+              "RelativeToolTip": "NTM_DeThiMau2023\\Views\\Shared\\NguyenTuanMinh_Header.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-20T10:00:38.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoaiHangMenuViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\ViewComponents\\LoaiHangMenuViewComponent.cs",
+              "RelativeDocumentMoniker": "NTM_DeThiMau2023\\ViewComponents\\LoaiHangMenuViewComponent.cs",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\ViewComponents\\LoaiHangMenuViewComponent.cs",
+              "RelativeToolTip": "NTM_DeThiMau2023\\ViewComponents\\LoaiHangMenuViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T09:54:30.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Views\\Shared\\Components\\LoaiHangMenu\\Default.cshtml",
+              "RelativeDocumentMoniker": "NTM_DeThiMau2023\\Views\\Shared\\Components\\LoaiHangMenu\\Default.cshtml",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Views\\Shared\\Components\\LoaiHangMenu\\Default.cshtml",
+              "RelativeToolTip": "NTM_DeThiMau2023\\Views\\Shared\\Components\\LoaiHangMenu\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-20T09:58:37.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Program.cs",
+              "RelativeDocumentMoniker": "NTM_DeThiMau2023\\Program.cs",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Program.cs",
+              "RelativeToolTip": "NTM_DeThiMau2023\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T09:52:22.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\appsettings.json",
+              "RelativeDocumentMoniker": "NTM_DeThiMau2023\\appsettings.json",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\appsettings.json",
+              "RelativeToolTip": "NTM_DeThiMau2023\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-20T09:50:40.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "NTM_DeThiMau2023\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_DeThiMau2023\\NTM_DeThiMau2023\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "NTM_DeThiMau2023\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-20T09:42:51.153Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

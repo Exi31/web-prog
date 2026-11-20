@@ -1,0 +1,52 @@
+﻿
+@model NTM_DeThiMau2026.Models.SachCreateViewModel
+
+@{
+    ViewData["Title"] = "Thêm sách mới";
+}
+
+<main class="main">
+    <div class="container">
+        <div class="section-head">
+            <h3>NGUYỄN TUẤN MINH - THÊM SÁCH MỚI</h3>
+        </div>
+
+        <div class="form-card">
+            <form asp-controller="Sach" asp-action="Create" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-field">
+                    <label asp-for="MaTl">MaTL</label>
+                    <select asp-for="MaTl" asp-items="ViewBag.TheLoaiOptions" class="form-input">
+                        <option value="0">-- Chọn thể loại --</option>
+                    </select>
+                    <span asp-validation-for="MaTl" class="text-danger"></span>
+                </div>
+
+                <div class="form-field">
+                    <label asp-for="TenSach">TenSach</label>
+                    <input asp-for="TenSach" class="form-input" />
+                    <span asp-validation-for="TenSach" class="text-danger"></span>
+                </div>
+
+                <div class="form-field">
+                    <label asp-for="Gia">Gia</label>
+                    <input asp-for="Gia" type="number" step="1" min="50" max="1000" class="form-input" />
+                    <span asp-validation-for="MaTl" class="text-danger"></span>
+                </div>
+
+                <div class="form-field">
+                    <label asp-for="Anh">Anh</label>
+                    <input asp-for="Anh" class="form-input" placeholder="Img_1.jpg" />
+                    <span asp-validation-for="Anh" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn-create">Create</button>
+                <a asp-controller="Home" asp-action="Index" style="margin-left:15px;">Quay lại</a>
+            </form>
+        </div>
+    </div>
+</main>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

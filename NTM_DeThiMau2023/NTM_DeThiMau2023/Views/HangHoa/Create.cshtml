@@ -1,0 +1,49 @@
+﻿
+@model NTM_DeThiMau2023.Models.HangHoaCreateViewModel
+
+<div class="main">
+    <div class="content">
+        <h3>Nguyễn Tuấn Minh</h3>
+        <h3>Thêm hàng hóa mới</h3>
+        <hr />
+
+        <form asp-controller="HangHoa" asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" style="color:red"></div>
+            <div>
+                <label asp-for="MaLoai">Mã loại</label>
+                <select asp-for="MaLoai" asp-items="ViewBag.DanhSachLoai">
+                    <option value="0">-- Chọn loại hàng --</option>
+                </select>
+
+                <span asp-validation-for="MaLoai" style="color:red"></span>
+            </div>
+
+            <div>
+                <label asp-for="TenHang">Tên hàng</label>
+                <input asp-for="TenHang" />
+                <span asp-validation-for="TenHang" style="color:red"></span>
+            </div>
+
+            <div>
+                <label asp-for="Gia">Giá</label>
+                <input asp-for="Gia" type="number" step="1" min="100" max="5000" />
+                <span asp-validation-for="TenHang" style="color:red"></span>
+            </div>
+
+            <div>
+                <label asp-for="Anh">Ảnh</label>
+                <input asp-for="Anh" placeholder="Img_1.jpg" />
+                <span asp-validation-for="TenHang" style="color:red"></span>
+            </div>
+
+            <br />
+
+            <button type="submit">Thêm hàng hóa</button>
+            <a asp-controller="Home" asp-action="Index">Quay lại</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

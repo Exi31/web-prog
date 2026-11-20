@@ -1,0 +1,76 @@
+﻿
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BookHub - Nhà sách trực tuyến</title>
+    <link href="~/css/layout.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    @await Html.PartialAsync("NguyenTuanMinh_Header")
+    @RenderBody()
+    @await Html.PartialAsync("NguyenTuanMinh_Footer")
+    <div class="to-top">&uarr;</div>
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/main.js"></script>
+
+    
+    <script>
+            document.addEventListener("click", async function (event) {
+
+                const link = event.target.closest("a.filter-theloai");
+
+                if (!link) return;
+
+                event.preventDefault();
+
+                const maTl = link.getAttribute("data-ma-tl");
+
+                const khuVuc = document.getElementById("khuVucSach");
+
+                if (!khuVuc) {
+                    window.location.href =
+                        '@Url.Action("Index", "Home")'
+                        + '?maTl=' + encodeURIComponent(maTl);
+                    return;
+                }
+
+                try {
+                    const url =
+                        '@Url.Action("LocTheoTheLoai", "Home")'
+                        + '?maTl=' + encodeURIComponent(maTl);
+
+                    const response = await fetch(url);
+
+                    if (!response.ok) {
+                        throw new Error("HTTP " + response.status);
+                    }
+
+                    const html = await response.text();
+
+                    khuVuc.innerHTML = html;
+
+                } catch (error) {
+                    console.error("Lỗi AJAX:", error);
+                    alert("Không tải được danh sách sách.");
+                    return;
+                }
+
+                const menuItem = link.closest("li");
+
+                if (menuItem) {
+                    document.querySelectorAll(".menu li.active")
+                        .forEach(item => item.classList.remove("active"));
+
+                    menuItem.classList.add("active");
+                }
+
+            });
+    </script>
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,13 @@
+﻿
+@model IEnumerable<NTM_DeThiMau2023.Models.LoaiHang>
+
+<li class="active">
+    <a asp-controller="Home" asp-action="Index">Nguyễn Tuấn Minh</a>
+</li>
+
+@foreach (var loai in Model)
+{
+    <li>
+        <a href="#" class="filter-loai" data-maloai="@loai.MaLoai">@loai.TenLoai</a>
+    </li>
+}

@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+@if (TempData["ThongBao"] != null)
+{
+    <div class="container" style="color:green; padding-top:12px;">
+        @TempData["ThongBao"]
+    </div>
+}
+
+@await Html.PartialAsync("NguyenTuanMinh_MainContent")
