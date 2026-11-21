@@ -1,0 +1,42 @@
+﻿
+@model NTM_QLTS_De2.Models.TaiSanFormVM
+
+<main class="main">
+    <div class="container">
+        <div class="form-card">
+            <h3>SỬA THÔNG TIN TÀI SẢN</h3>
+            <form asp-controller="TaiSan" asp-action="Edit" method="post">
+                <input asp-for="MaTs" type="hidden" />
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div>
+                    <label>Loại tài sản</label>
+                    <select asp-for="MaLoai" asp-items="ViewBag.Loai">
+                        <option value="0">-- Chọn loại --</option>
+                    </select>
+                    <span asp-validation-for="MaLoai" class="text-danger"></span>
+                </div>
+                <div>
+                    <label>Tên tài sản</label>
+                    <input asp-for="TenTs" />
+                    <span asp-validation-for="TenTs" class="text-danger"></span>
+                </div>
+                <div>
+                    <label>Nguyên giá (triệu)</label>
+                    <input asp-for="NguyenGia" type="number" step="1" />
+                    <span asp-validation-for="NguyenGia" class="text-danger"></span>
+                </div>
+                <div>
+                    <label>Tên file ảnh</label>
+                    <input asp-for="Anh" />
+                    <span asp-validation-for="Anh" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn-buy">Save</button>
+            </form>
+        </div>
+    </div>
+</main>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+

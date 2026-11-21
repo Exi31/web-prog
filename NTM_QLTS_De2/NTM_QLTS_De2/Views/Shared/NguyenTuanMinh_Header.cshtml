@@ -1,0 +1,39 @@
+﻿
+@inject NTM_QLTS_De2.Models.QLTaiSanContext db
+
+<!-- Begin Header -->
+<header class="header">
+    <div class="topbar">
+        <div class="container">
+            <span>Phòng Hành chính - Quản trị: <b>(024) 3999 8888</b> &nbsp;|&nbsp; Hỗ trợ: taisan@assethub.vn</span>
+            <span>Xin chào, Quản trị viên &nbsp;|&nbsp; Đăng xuất</span>
+        </div>
+    </div>
+    <div class="header-main">
+        <div class="container">
+            <a href="index.html"><img src="~/images/logo.png" alt="AssetHub" /></a>
+            <div class="cart-box">Tổng tài sản: 16 - Nguyên giá: 3.125 triệu</div>
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="container">
+            <ul class="menu">
+                <li class="active">
+                    <a asp-controller="Home" asp-action="Index">NGUYỄN TUẤN MINH</a>
+                </li>
+
+                @foreach (var loai in db.Set<NTM_QLTS_De2.Models.LoaiTaiSan>().OrderBy(x => x.MaLoai))
+                {
+                    <li>
+                        <a class="blockquote" data-id="@loai.MaLoai" href="@Url.Action("Index", "Home", new {maLoai = loai.MaLoai})">@loai.TenLoai</a>
+                    </li>
+                }
+            </ul>
+            <form class="search-box">
+                <input type="text" placeholder="Tìm tài sản..." />
+                <button type="button">Tìm</button>
+            </form>
+        </div>
+    </nav>
+</header>
+<!-- End Header -->

@@ -1,0 +1,25 @@
+﻿
+@model IEnumerable<NTM_QLTS_De1.Models.TaiSan>
+
+<div class="section-head">
+    <h3>@ViewBag.TieuDe</h3>
+
+    <a asp-controller="TaiSan" asp-action="Create">Thêm tài sản mới &rsaquo;</a>
+</div>
+
+<div class="grid">
+    @foreach (var ts in Model)
+    {
+        <div class="asset-card">
+            <img src="@Url.Content("~/images/" + (ts.Anh ?? "Img_1.jpg"))" alt="@ts.TenTs" />
+            <h2>@ts.TenTs</h2>
+            <div class="asset-foot">
+                <span class="price">
+                    @(ts.NguyenGia.HasValue ? ts.NguyenGia.Value.ToString("0") + " tr" : "Chưa có giá")
+                </span>
+
+                <button class="btn-buy" type="button">Chi tiết</button>
+            </div>
+        </div>
+    }
+</div>

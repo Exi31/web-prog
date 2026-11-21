@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|c:\\users\\grind\\github\\web-prog\\ntm_qlts_de2\\ntm_qlts_de2\\views\\taisan\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|solutionrelative:ntm_qlts_de2\\views\\taisan\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|c:\\users\\grind\\github\\web-prog\\ntm_qlts_de2\\ntm_qlts_de2\\controllers\\taisancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|solutionrelative:ntm_qlts_de2\\controllers\\taisancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|c:\\users\\grind\\github\\web-prog\\ntm_qlts_de2\\ntm_qlts_de2\\models\\taisanformvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|solutionrelative:ntm_qlts_de2\\models\\taisanformvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|c:\\users\\grind\\github\\web-prog\\ntm_qlts_de2\\ntm_qlts_de2\\views\\shared\\nguyentuanminh_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|solutionrelative:ntm_qlts_de2\\views\\shared\\nguyentuanminh_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|c:\\users\\grind\\github\\web-prog\\ntm_qlts_de2\\ntm_qlts_de2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|solutionrelative:ntm_qlts_de2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|c:\\users\\grind\\github\\web-prog\\ntm_qlts_de2\\ntm_qlts_de2\\views\\shared\\nguyentuanminh_maincontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|solutionrelative:ntm_qlts_de2\\views\\shared\\nguyentuanminh_maincontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|c:\\users\\grind\\github\\web-prog\\ntm_qlts_de2\\ntm_qlts_de2\\views\\shared\\nguyentuanminh_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|solutionrelative:ntm_qlts_de2\\views\\shared\\nguyentuanminh_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Models\\QLTaiSanContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NTM_QLTS_De2\\Models\\QLTaiSanContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|c:\\users\\grind\\github\\web-prog\\ntm_qlts_de2\\ntm_qlts_de2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|solutionrelative:ntm_qlts_de2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|c:\\users\\grind\\github\\web-prog\\ntm_qlts_de2\\ntm_qlts_de2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|solutionrelative:ntm_qlts_de2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|c:\\users\\grind\\github\\web-prog\\ntm_qlts_de2\\ntm_qlts_de2\\views\\shared\\nguyentuanminh_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|solutionrelative:ntm_qlts_de2\\views\\shared\\nguyentuanminh_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|c:\\users\\grind\\github\\web-prog\\ntm_qlts_de2\\ntm_qlts_de2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E16F85C-8391-4BDF-8ED3-5BB5FEC57428}|NTM_QLTS_De2\\NTM_QLTS_De2.csproj|solutionrelative:ntm_qlts_de2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\grind\\Desktop\\ltrinh web\\DeThi_Mau_2026SV_QLTS\\DeThi_Mau_2026SV_QLTS\\Template\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Views\\TaiSan\\Form.cshtml",
+              "RelativeDocumentMoniker": "NTM_QLTS_De2\\Views\\TaiSan\\Form.cshtml",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Views\\TaiSan\\Form.cshtml*",
+              "RelativeToolTip": "NTM_QLTS_De2\\Views\\TaiSan\\Form.cshtml*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T06:24:47.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaiSanController.cs",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Controllers\\TaiSanController.cs",
+              "RelativeDocumentMoniker": "NTM_QLTS_De2\\Controllers\\TaiSanController.cs",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Controllers\\TaiSanController.cs*",
+              "RelativeToolTip": "NTM_QLTS_De2\\Controllers\\TaiSanController.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwD0AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T06:20:35.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaiSanFormVM.cs",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Models\\TaiSanFormVM.cs",
+              "RelativeDocumentMoniker": "NTM_QLTS_De2\\Models\\TaiSanFormVM.cs",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Models\\TaiSanFormVM.cs*",
+              "RelativeToolTip": "NTM_QLTS_De2\\Models\\TaiSanFormVM.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T06:17:36.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "NTM_QLTS_De2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "NTM_QLTS_De2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswBEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T03:57:28.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Program.cs",
+              "RelativeDocumentMoniker": "NTM_QLTS_De2\\Program.cs",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Program.cs",
+              "RelativeToolTip": "NTM_QLTS_De2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T03:54:17.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QLTaiSanContext.cs",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Models\\QLTaiSanContext.cs",
+              "RelativeDocumentMoniker": "NTM_QLTS_De2\\Models\\QLTaiSanContext.cs",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Models\\QLTaiSanContext.cs",
+              "RelativeToolTip": "NTM_QLTS_De2\\Models\\QLTaiSanContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T03:53:47.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "NTM_QLTS_De2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "NTM_QLTS_De2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T03:50:47.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NguyenTuanMinh_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Views\\Shared\\NguyenTuanMinh_Layout.cshtml",
+              "RelativeDocumentMoniker": "NTM_QLTS_De2\\Views\\Shared\\NguyenTuanMinh_Layout.cshtml",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Views\\Shared\\NguyenTuanMinh_Layout.cshtml",
+              "RelativeToolTip": "NTM_QLTS_De2\\Views\\Shared\\NguyenTuanMinh_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T03:48:32.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NguyenTuanMinh_MainContent.cshtml",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Views\\Shared\\NguyenTuanMinh_MainContent.cshtml",
+              "RelativeDocumentMoniker": "NTM_QLTS_De2\\Views\\Shared\\NguyenTuanMinh_MainContent.cshtml",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Views\\Shared\\NguyenTuanMinh_MainContent.cshtml",
+              "RelativeToolTip": "NTM_QLTS_De2\\Views\\Shared\\NguyenTuanMinh_MainContent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T03:47:10.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NguyenTuanMinh_Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Views\\Shared\\NguyenTuanMinh_Footer.cshtml",
+              "RelativeDocumentMoniker": "NTM_QLTS_De2\\Views\\Shared\\NguyenTuanMinh_Footer.cshtml",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Views\\Shared\\NguyenTuanMinh_Footer.cshtml",
+              "RelativeToolTip": "NTM_QLTS_De2\\Views\\Shared\\NguyenTuanMinh_Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T03:46:58.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NguyenTuanMinh_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Views\\Shared\\NguyenTuanMinh_Header.cshtml",
+              "RelativeDocumentMoniker": "NTM_QLTS_De2\\Views\\Shared\\NguyenTuanMinh_Header.cshtml",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Views\\Shared\\NguyenTuanMinh_Header.cshtml",
+              "RelativeToolTip": "NTM_QLTS_De2\\Views\\Shared\\NguyenTuanMinh_Header.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T03:46:49.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "NTM_QLTS_De2\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\grind\\github\\web-prog\\NTM_QLTS_De2\\NTM_QLTS_De2\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "NTM_QLTS_De2\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T03:50:37.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\grind\\Desktop\\ltrinh web\\DeThi_Mau_2026SV_QLTS\\DeThi_Mau_2026SV_QLTS\\Template\\index.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\ltrinh web\\DeThi_Mau_2026SV_QLTS\\DeThi_Mau_2026SV_QLTS\\Template\\index.html",
+              "ToolTip": "C:\\Users\\grind\\Desktop\\ltrinh web\\DeThi_Mau_2026SV_QLTS\\DeThi_Mau_2026SV_QLTS\\Template\\index.html",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\ltrinh web\\DeThi_Mau_2026SV_QLTS\\DeThi_Mau_2026SV_QLTS\\Template\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-21T03:46:29.179Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

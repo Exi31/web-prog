@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AssetHub - Quản lý tài sản doanh nghiệp</title>
+    <link rel="stylesheet" href="~/css/layout.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body>
+    @await Html.PartialAsync("NguyenTuanMinh_Header")
+    @RenderBody()
+    @await Html.PartialAsync("NguyenTuanMinh_Footer")
+    <div class="to-top">&uarr;</div>
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/main.js"></script>
+
+    <script>
+        $(document).on("click", ".loc", function (e) {
+            if (!$"#ketqua").length) return;
+
+        e.preventDefault();
+
+        var a = $(this)
+
+        $.get('@Url.Action("Loc", "Home")',
+            { maLoai: a.attr("data-id") },
+            function (html) {
+                $("#ketqua").html(html);
+                $(".menu li").removeClass("active");
+                a.parent().addClass("active");
+            }
+        ).fail(function () {
+            alert("Không lọc được tài sản");
+        });
+    });
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
